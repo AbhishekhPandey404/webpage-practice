@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>75:25 page ration</title>
+        <style>
+            body{
+                display: flex;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .container{
+                display: flex;
+                width: 100%;
+            }
+            .section{
+                overflow-y: auto;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .left{
+                width: 75%;
+                background-color: #f0f0f0;
+            }
+            .right{
+                width: 25%;
+                background-color: #d0d0d0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="section left">
+                <h2>left section 75%</h2>
+                <p>insert data here</p>
+            </div>
+            <div class="section right">
+                <h2>right section 25%</h2>
+                <p>insert data here</p>
+            </div>
+        </div>
+    </body>
+</html>
